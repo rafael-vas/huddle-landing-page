@@ -10,10 +10,9 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -26,17 +25,22 @@ Users should be able to:
 
 ### Screenshot
 
-# Desktop
+#### Desktop
 
 <img src="src/design/desktop-design.jpg" alt="Desktop Design">
 
-# Mobile
+#### Mobile
 
 <img src="src/design/mobile-design.jpg" alt="Desktop Design" width="375">
 
 ### Links
+[Click Here to Access Website](https://rafael-vas.github.io/huddle-landing-page/) 
 
-- Live Site URL: [Access Website](https://rafael-vas.github.io/huddle-landing-page/)
+- Live Site URL:
+```
+    https://rafael-vas.github.io/huddle-landing-page/
+```
+
 
 ## My process
 
@@ -46,16 +50,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
-
-### What I learned
-
-In this challenge you can understand more about the flex display, the display grid and also the responsiveness.
-
-
-### Continued development
-
-I want to continue learning about flex display and responsiveness.
 
 
 ## Author
