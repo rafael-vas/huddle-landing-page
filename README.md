@@ -32,7 +32,7 @@ Users should be able to:
 
 # Mobile
 
-<img src="src/design/mobile-design.jpg" alt="Desktop Design">
+<img src="src/design/mobile-design.jpg" alt="Desktop Design" width="375">
 
 ### Links
 
