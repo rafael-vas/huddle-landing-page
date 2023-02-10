@@ -1,0 +1,153 @@
+/* ================> FONT IMPORT <================ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+html {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #674bb0;
+}
+
+/* ================> LAYOUT <================ */
+
+.layout {
+  background: url("../images/bg-desktop.svg") center no-repeat;
+  background-size: cover;
+  padding: 0 60px;
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  grid:
+    "header" 100px
+    "main" auto
+    "footer" 100px;
+}
+
+/* ================> HEADER <================ */
+
+.header {
+  grid-area: header;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.logo-link {
+  height: fit-content;
+  width: fit-content;
+}
+
+.logo {
+  width: 180px;
+}
+
+/* ================> MAIN <================ */
+
+.container {
+  grid-area: main;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  max-height: 560px;
+}
+
+.ilustration {
+  flex: 1 1 45%;
+  height: 100%;
+}
+
+.ilustration img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.content {
+  flex: 1 1 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  height: 100%;
+}
+
+.content .title {
+  font-weight: 600;
+  font-size: 40px;
+  padding-right: 20px;
+}
+
+.content .description {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.content .register-button {
+  width: 200px;
+  padding: 15px 0;
+  margin-bottom: 60px;
+  border: none;
+  border-radius: 50px;
+  color: #684bb0c8;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px #321c6b6d;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 500;
+  transition: .15s ease-in-out;
+}
+
+.content .register-button:hover {
+    background-color: #e980e7;
+    color: white;
+    cursor: pointer;
+}
+
+/* ================> FOOTER <================ */
+
+.footer {
+  grid-area: footer;
+}
+
+.social-medias {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-medias .facebook-icon,
+.social-medias .twitter-icon,
+.social-medias .instagram-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  padding: 10px;
+  color: #fff;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  transition: .15s ease-in-out;
+}
+
+.social-medias i {
+  font-size: 18px;
+}
+
+.social-medias .facebook-icon:hover,
+.social-medias .twitter-icon:hover,
+.social-medias .instagram-icon:hover {
+    color: #EF57C2;
+    border-color: #EF57C2;
+}
